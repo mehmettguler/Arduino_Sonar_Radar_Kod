@@ -1,0 +1,6 @@
+Selam. Projenin doğru çalışması için kod sayfasında 19. satırdaki 
+myPort = new Serial(this,"/dev/tty.wchusbserial1410", 9600); 
+Tırnak içerisinde yazılan yazıyı silip, kendi port numaranızı yazmanız gerekmektedir.
+Örneğin; myPort = new Serial(this,"COM5", 9600); gibi olmalıdır.
+Kendi port numaranız ne ise onu yazmalısınız. 
+İyi çalışmalar.
